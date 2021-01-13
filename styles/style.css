@@ -103,6 +103,95 @@ body {
   content: "Got it";
 }
 
+#showcase {
+  font-size: 1.7rem;
+  line-height: 1.6;
+  background-image: url("/assets/work-desk__dustin-lee.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+
+#showcase .heroshot {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 0 2rem;
+}
+
+#showcase .heroshot h1 {
+  line-height: 1.2;
+  color: white;
+}
+
+#showcase .heroshot h2 {
+  color: white;
+}
+
+#showcase .heroshot p {
+  font-size: 1.7rem;
+  max-width: 52rem;
+  color: white;
+}
+
+#showcase .heroshot .button {
+  font-size: 1.6rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  border: white 2px solid;
+  padding: 1rem 2rem;
+  border-radius: 3px;
+  margin-top: 2rem;
+  font-weight: 550;
+}
+
+#showcase .heroshot .button:hover {
+  background: white;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+#showcase .heroshot .logo {
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  top: 4.3rem;
+  left: 4.3rem;
+}
+
+#showcase .heroshot .logo img {
+  width: 100%;
+  height: 100%;
+}
+
+#showcase .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 123, 193, 0.6);
+}
+
 @media screen and (max-width: 480px) {
   .notification-panel {
     padding: 1.3rem 1.1rem 1.1rem 1.1rem;
