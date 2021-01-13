@@ -106,6 +106,7 @@ body {
 @media screen and (max-width: 480px) {
   .notification-panel {
     padding: 1.3rem 1.1rem 1.1rem 1.1rem;
+    top: -16rem;
   }
   .notification-panel .content {
     -webkit-box-orient: vertical;
@@ -121,6 +122,12 @@ body {
   }
   #toggle:checked ~ .container {
     margin-top: 12rem;
+  }
+}
+
+@media screen and (max-width: 363px) {
+  #toggle:checked ~ .container {
+    margin-top: 14rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
