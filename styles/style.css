@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+html {
+  font-size: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: auto auto;
+  height: 100vh;
+  font-family: 'Roboto',Helvetica,Arial,sans-serif;
+  max-width: 1366px;
+}
+
+.notification-panel {
+  background: #e5e5e5;
+  position: absolute;
+  top: -12rem;
+  left: 0;
+  width: 100%;
+  padding: 2rem;
+  -webkit-transition: top 300ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
+  transition: top 300ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
+  overflow: hidden;
+}
+
+.notification-panel .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 72rem;
+  margin: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.notification-panel .content p {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.429;
+}
+
+.notification-panel .content p a {
+  color: #007bc1;
+}
+
+#toggle {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  cursor: pointer;
+}
+
+#toggle + label {
+  cursor: pointer;
+  background: #007bc1;
+  border-radius: 3px;
+  padding: .5rem 1rem;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer;
+  -webkit-transition: 500ms ease;
+  transition: 500ms ease;
+  white-space: nowrap;
+}
+
+#toggle + label:after {
+  content: "Got it";
+}
+
+.container {
+  -webkit-transition: margin 300ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
+  transition: margin 300ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
+}
+
+#toggle:checked ~ .notification-panel {
+  top: 0;
+  position: fixed;
+}
+
+#toggle:checked ~ .container {
+  margin-top: 8rem;
+}
+
+#toggle:checked + label:after {
+  content: "Got it";
+}
+
+@media screen and (max-width: 480px) {
+  .notification-panel {
+    padding: 1.3rem 1.1rem 1.1rem 1.1rem;
+  }
+  .notification-panel .content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .notification-panel .content p {
+    padding-bottom: 0.8rem;
+  }
+  #toggle:checked ~ .container {
+    margin-top: 12rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
