@@ -98,6 +98,7 @@ body {
 
 #showcase{
     font-size: 1.7rem;
+    font-weight: 400;
     line-height: 1.6;
     background-image: url('/assets/work-desk__dustin-lee.jpg');
     height: 100vh;
@@ -114,13 +115,13 @@ body {
         width: 100%;
         height: 100%;
         background: transparent;     
-        
         display:flex;
         flex-direction:column;
         justify-content:center;
         align-items:center;
         text-align:center;
         padding:0 2rem;
+        -webkit-font-smoothing: antialiased;  
         h1{
             line-height: 1.2;
             color: white
@@ -173,8 +174,64 @@ body {
           left: 0;
           width: 100%;
           height: 100%;
-          background: rgba(0, 123, 193, 0.6);
+          background: rgba(0, 123, 193, 0.3);
       }
+}
+
+
+#hightlight-panel{
+    background: $smoke-grey;
+    padding: 4rem 2rem;
+    font-size: 1.7rem;
+
+    >h1 {
+        text-align: center;
+        text-transform: capitalize;
+        font-weight: 500;
+    }
+
+    >p {
+        text-align: center;
+        max-width: 60rem;
+        margin: 2rem auto
+    }
+
+    .tiles{
+        display: grid;
+        grid-gap: 1.6rem;
+
+        .content{
+            padding: 2rem;
+            border: 1px solid #cecece;
+
+            .title{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                padding-bottom: 1.5rem;
+
+                h1{
+                    font-weight: 400;
+                }
+
+                .logo{
+                    i{
+                        font-size: 3rem;
+                        color: darkgrey
+                    }
+                }
+
+            }
+
+            p{
+                font-size: 1.4rem;
+                font-weight: lighter;
+                line-height: 1.429;
+            }
+        }
+    }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -190,7 +247,7 @@ body {
             }
         }
     }
-
+    
     #toggle:checked ~ .container {
         margin-top: 12rem;
     }
@@ -201,3 +258,27 @@ body {
         margin-top: 14rem;
     }    
 }
+
+
+@media (min-width: 960px){
+    #hightlight-panel{
+        .tiles{
+            grid-template-columns: repeat(3,1fr);
+        }
+    }
+}
+
+@media screen and (max-width: 959px) and (min-width: 481px){
+    #hightlight-panel{
+        .tiles{
+            grid-template-columns: repeat(2,1fr);
+        }
+    }
+}
+
+@media screen and (max-width: 480px){
+    #hightlight-panel{
+        .tiles{
+            grid-template-columns: repeat(1,1fr);
+        }
+    }}
