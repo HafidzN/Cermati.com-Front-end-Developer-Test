@@ -196,7 +196,7 @@ body {
 
 #hightlight-panel {
   background: #e5e5e5;
-  padding: 4rem 2rem;
+  padding: 4rem 3rem;
   font-size: 1.7rem;
 }
 
@@ -208,7 +208,6 @@ body {
 
 #hightlight-panel > p {
   text-align: center;
-  max-width: 60rem;
   margin: 2rem auto;
 }
 
@@ -255,6 +254,82 @@ body {
   line-height: 1.429;
 }
 
+footer {
+  padding: 5rem 0;
+  background: #004a75;
+}
+
+footer p {
+  font-size: 1.7rem;
+  text-align: center;
+  color: white;
+}
+
+.newsletter-panel {
+  max-width: 64rem;
+  background: rgba(0, 123, 193, 0.7);
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.newsletter-panel .close {
+  font-size: 2rem;
+  text-align: end;
+}
+
+.newsletter-panel h2 {
+  font-weight: 400;
+  padding: 0 0;
+}
+
+.newsletter-panel p {
+  font-size: 1.7rem;
+  padding: 1rem 0;
+}
+
+.newsletter-panel form {
+  padding: 1rem 0;
+}
+
+.newsletter-panel form div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.newsletter-panel form div input[type="text"] {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: 3rem;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  font-size: 1.7rem;
+  padding: .5rem 1.5rem;
+}
+
+.newsletter-panel form div input[type="submit"] {
+  background: #ff8000;
+  height: 3rem;
+  outline: none;
+  border: none;
+  font-size: 1.7rem;
+  padding: .5rem 1.5rem;
+  color: white;
+  border-radius: 3px;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 480px) {
   .notification-panel {
     padding: 1.3rem 1.1rem 1.1rem 1.1rem;
@@ -275,6 +350,22 @@ body {
   #toggle:checked ~ .container {
     margin-top: 12rem;
   }
+  #hightlight-panel .tiles {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
+  .newsletter-panel form div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .newsletter-panel form div input[type="text"] {
+    margin: .5rem 0;
+  }
+  .newsletter-panel form div input[type="submit"] {
+    margin: .5rem 0;
+  }
 }
 
 @media screen and (max-width: 363px) {
@@ -294,13 +385,6 @@ body {
   #hightlight-panel .tiles {
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media screen and (max-width: 480px) {
-  #hightlight-panel .tiles {
-    -ms-grid-columns: (1fr)[1];
-        grid-template-columns: repeat(1, 1fr);
   }
 }
 /*# sourceMappingURL=style.css.map */
