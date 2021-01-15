@@ -35,8 +35,8 @@
   * This panel should be placed at the ​bottom-left corner ​of the screen ​and stay there​ as the page is scrolled down/up.
   * This panel could be hidden/removed by clicking the close button on top-right of the panel. When it’s being closed it should be ​animated sliding down​ and also it should ​remember to keep being hidden​ for 10 minutes after. So after the panel is closed, it will not showing up again whether the page is scrolled up/down or when the page is reloaded.
 
-  ![Newsletter](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1610693341/ewsllett2_zsnnsy.png)
-  ![Mobile Newsletter](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1610713627/resnewt_ptmkov.png)
+    ![Newsletter](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1610693341/ewsllett2_zsnnsy.png)
+    ![Mobile Newsletter](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1610714265/resnewt_rxgo6f.png)
 
 
 # Build Setup
