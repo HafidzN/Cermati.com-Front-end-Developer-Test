@@ -14,6 +14,7 @@
 * **Page Header and Hero-shot**
 
 ![Page Header Hero Shot](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1610684174/hero_c5d9ad.png)
+![Hovered CTA](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1610711857/hover_asi5i2.png)
 
 * **Highlights Panel**  
   The tiles layout should be responsive, scheme could be seen in the figure below, arranged with the following orders:
