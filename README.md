@@ -36,7 +36,7 @@
   * This panel could be hidden/removed by clicking the close button on top-right of the panel. When it’s being closed it should be ​animated sliding down​ and also it should ​remember to keep being hidden​ for 10 minutes after. So after the panel is closed, it will not showing up again whether the page is scrolled up/down or when the page is reloaded.
 
   ![Newsletter](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1610693341/ewsllett2_zsnnsy.png)
-  ![Mobile Newsletter](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1610692641/resnewt_kkybbi.png)
+  ![Mobile Newsletter](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1610713627/resnewt_ptmkov.png)
 
 
 # Build Setup
@@ -45,4 +45,4 @@
 * Run Live Server in your Code Editor
 
 
-Copyright © 2020 by Hafidz Nugroho
+Copyright © 2021 by Hafidz Nugroho
