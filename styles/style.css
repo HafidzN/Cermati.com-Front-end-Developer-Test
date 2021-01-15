@@ -143,16 +143,20 @@ body {
 #showcase .heroshot h1 {
   line-height: 1.2;
   color: white;
+  font-weight: 500;
 }
 
 #showcase .heroshot h2 {
   color: white;
+  font-weight: 500;
 }
 
 #showcase .heroshot p {
   font-size: 1.7rem;
   max-width: 52rem;
   color: white;
+  margin: 2rem 0 3rem;
+  line-height: 1.7;
 }
 
 #showcase .heroshot .button {
@@ -163,7 +167,6 @@ body {
   border: white 2px solid;
   padding: 1rem 2rem;
   border-radius: 3px;
-  margin-top: 2rem;
   font-weight: 550;
 }
 
@@ -208,7 +211,7 @@ body {
 
 #hightlight-panel > p {
   text-align: center;
-  margin: 2rem auto;
+  margin: 2rem auto 4rem;
 }
 
 #hightlight-panel .tiles {
@@ -281,7 +284,7 @@ footer p {
 }
 
 .newsletter-panel .close {
-  font-size: 2rem;
+  font-size: 1.4rem;
   text-align: end;
 }
 

@@ -118,15 +118,19 @@ body {
         -webkit-font-smoothing: antialiased;  
         h1{
             line-height: 1.2;
-            color: white
+            color: white;
+            font-weight: 500;
         }
         h2 {
-            color: white
+            color: white;
+            font-weight: 500;
         }
         p {
             font-size: 1.7rem;
             max-width: 52rem;
-            color: white
+            color: white;
+            margin: 2rem 0 3rem;
+            line-height: 1.7;
         }
         .button{
             font-size:1.6rem;
@@ -136,7 +140,6 @@ body {
             border:white 2px solid;
             padding:1rem 2rem;
             border-radius:3px;
-            margin-top:2rem;
             font-weight: 550;
             &:hover{
                 background:white;
@@ -176,7 +179,7 @@ body {
     }
     >p {
         text-align: center;
-        margin: 2rem auto
+        margin: 2rem auto 4rem;
     }
     .tiles{
         display: grid;
@@ -196,7 +199,7 @@ body {
                 .logo{
                     i{
                         font-size: 3rem;
-                        color: darkgrey
+                        color: darkgrey;
                     }
                 }
             }
@@ -231,7 +234,7 @@ footer{
     transition: all .3s ease-out;
     transform: translateY(100%);
     .close{
-        font-size: 2rem;
+        font-size: 1.4rem;
         text-align: end;
     }
     h2{

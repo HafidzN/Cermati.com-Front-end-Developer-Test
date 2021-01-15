@@ -1,4 +1,4 @@
-const MIN_SCROLLING = 30
+const MIN_SCROLLING = 33.33333
 const TIME = 600000 //ms in 10minutes
 const newsletter = document.querySelector('.newsletter-panel')
 const closeBtn = document.querySelector('#closeBtn')
