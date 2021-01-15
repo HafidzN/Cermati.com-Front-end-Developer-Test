@@ -1,5 +1,6 @@
 const MIN_SCROLLING = 33.33333
-const TIME = 600000 //ms in 10minutes
+const TIME = 10000
+//600000 //ms in 10minutes
 const newsletter = document.querySelector('.newsletter-panel')
 const closeBtn = document.querySelector('#closeBtn')
 var winheight, docheight, trackLength, throttlescroll
@@ -24,7 +25,7 @@ const getmeasurements = () => {
 const amountscrolled = () => {
     var scrollTop = window.pageYOffset || (document.documentElement || document.body.parentNode || document.body).scrollTop
     var pctScrolled = Math.floor(scrollTop/trackLength * 100) // gets percentage scrolled (ie: 80 or NaN if tracklength == 0)
-    if (pctScrolled >= MIN_SCROLLING){
+    if (pctScrolled >= MIN_SCROLLING && showNewsletterPermission){
         setScroll(true)
     }
 }
