@@ -1,5 +1,9 @@
 # Cermati.com Front-end Developer Test
 
+## Screenshots
+![Whole Page](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1610682708/cermati_ygbljm.png)
+
+
 ## Features
 * **Notification Panel**  
   This panel would ​stay on top of the page​ as the page is scrolled down/up. If the button is clicked, the panel will be ​animated sliding up​ - not just suddenly disappears - and also the page content follows sliding up to the top of the page. The content (the paragraph including the button) wide should not be more than 720px.
@@ -30,12 +34,9 @@
   * This panel should be placed at the ​bottom-left corner ​of the screen ​and stay there​ as the page is scrolled down/up.
   * This panel could be hidden/removed by clicking the close button on top-right of the panel. When it’s being closed it should be ​animated sliding down​ and also it should ​remember to keep being hidden​ for 10 minutes after. So after the panel is closed, it will not showing up again whether the page is scrolled up/down or when the page is reloaded.
 
-![Newsletter](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1610684159/bottom_oxq5i5.png)
+![Newsletter](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1610693341/ewsllett2_zsnnsy.png)
 ![Mobile Newsletter](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1610692641/resnewt_kkybbi.png)
 
-
-## Screenshots
-![Whole Page](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1610682708/cermati_ygbljm.png)
 
 # Build Setup
 * Clone repository `https://github.com/HafidzN/Cermati.com-Front-end-Developer-Test`
