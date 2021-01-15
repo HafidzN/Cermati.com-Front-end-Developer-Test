@@ -1,6 +1,5 @@
 const MIN_SCROLLING = 33.33333
-const TIME = 10000
-//600000 //ms in 10minutes
+const TIME = 600000 //ms in 10minutes
 const newsletter = document.querySelector('.newsletter-panel')
 const closeBtn = document.querySelector('#closeBtn')
 var winheight, docheight, trackLength, throttlescroll
