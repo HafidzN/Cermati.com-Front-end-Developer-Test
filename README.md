@@ -1,4 +1,4 @@
-# CERMATI FRONT-END DEVELOPER TEST
+# Cermati.com Front-end Developer Test
 
 ## Features
 * **Notification Panel**  
@@ -31,7 +31,7 @@
   * This panel could be hidden/removed by clicking the close button on top-right of the panel. When it’s being closed it should be ​animated sliding down​ and also it should ​remember to keep being hidden​ for 10 minutes after. So after the panel is closed, it will not showing up again whether the page is scrolled up/down or when the page is reloaded.
 
 ![Newsletter](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1610684159/bottom_oxq5i5.png)
-![Newsletter](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1610684154/ewsllett_rstkru.png)
+![Mobile Newsletter](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1610692641/resnewt_kkybbi.png)
 
 
 ## Screenshots
