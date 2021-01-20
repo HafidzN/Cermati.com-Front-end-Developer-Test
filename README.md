@@ -40,7 +40,7 @@
 
 
 # Build Setup
-* Clone repository `https://github.com/HafidzN/Cermati.com-Front-end-Developer-Test`
+* Clone repository `https://github.com/HafidzN/Cermati.com-Mockup`
 * Open project file's directory you have cloned
 * Run Live Server in your Code Editor
 
