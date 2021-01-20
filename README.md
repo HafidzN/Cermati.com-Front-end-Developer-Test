@@ -1,4 +1,4 @@
-# Cermati.com Front-end Developer Test
+# Cermati.com Mock-up
 
 ## Screenshots
 ![Whole Page](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1610682708/cermati_ygbljm.png)
